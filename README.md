@@ -86,7 +86,7 @@ SSH protocol is currently a bit more difficult, so you'll have to use command li
   - Create a ssh pair key with PuttyGen RSA with 2048 bytes. Don't add any password. Save the PPK and upload the public key to the git server.
   - Add the PPK key to the Putty agent.
   - ONLY IF YOU HAVE A RSA Key already from the server. You need to convert the private key to PPK. With PuttyGen load the sshkeyfilename (this file comes without extension, after loaded save it as private key. After that load this key in Putty Agent.
-  - Insert (if not already) the pub key to the server inside the folder `/root/.ssh/authorized_keys`. (edit with `vi` the file `authorized_keys` and paste the pub key content on the file.)
+  - Insert (if not already) the pub key to the server inside the folder `/root/.ssh/authorized_keys`. (edit with `vi` the file `authorized_keys` and paste the pub key content on the file).
   - Putty manage the private keys with a SSH agent always present in the task bar.
 
 ## Some screenshots:
